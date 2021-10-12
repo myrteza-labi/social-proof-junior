@@ -1,0 +1,4 @@
+.RatingsContainer {
+    display: flex; 
+    flex-direction: column; 
+}

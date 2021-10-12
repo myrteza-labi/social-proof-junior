@@ -9,7 +9,7 @@ import Review from './components/Review';
 function App() {
   return (
     <div className="App">
-      <SocialProofsBox/>
+      <SocialProofsBox>
         <TextPresentation/>
         <RatingsContainer>
           <Rating/>
@@ -21,7 +21,7 @@ function App() {
           <Review src={""} alt={""} name={""}/>
           <Review src={""} alt={""} name={""}/>
         </ReviewsContainer>
-        
+      </SocialProofsBox>     
     </div>
   );
 }

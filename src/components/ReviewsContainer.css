@@ -1,0 +1,4 @@
+.ReviewsContainer {
+    display: flex; 
+    flex-direction: column; 
+}
