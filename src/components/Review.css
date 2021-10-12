@@ -1,6 +1,9 @@
 .Review{
     display: flex;
     flex-direction: column; 
+    padding: 35px; 
+    background-color: #512051; 
+    border-radius: 8px; 
 }
 .Review:not(:first-of-type){
     margin-top: 16px; 
@@ -9,8 +12,34 @@
 .pictureAndNameContainer {
     display: flex; 
     flex-direction: row; 
+    align-items: center; 
+    margin-bottom: 25px; 
 }
 .nameAndStatusContainer {
     display: flex; 
     flex-direction: column; 
+    margin-left: 20px; 
+}
+.profilePicture {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 30px; 
+}
+.profileName {
+    font-size: 13px; 
+    color: #FFF; 
+    font-weight: 500; 
+}
+.profileStatus {
+    margin-top: 5px; 
+    font-size: 13px; 
+    font-weight: 200; 
+    color: #EE69A4; 
+}
+.reviewText {
+    font-size: 13px; 
+    font-weight: 400; 
+    color: #FFF; 
+    letter-spacing: -0.13px; 
+    line-height: 22px; 
 }
