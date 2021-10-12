@@ -9,7 +9,7 @@ function Rating(props){
         let starsArray = []; 
 
             for(let i=0; i< 5; i++){
-                starsArray.push(<img className="star" src={starIcon} alt="une étoile"/>);
+                starsArray.push(<img key={i} className="star" src={starIcon} alt="une étoile"/>);
             }
             return (
                 starsArray
