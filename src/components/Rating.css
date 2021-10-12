@@ -25,3 +25,32 @@
     color: #512051; 
     padding-bottom: 15px; 
 }
+
+
+@media screen and (min-width: 1440px){
+    .Rating {
+        width: 445px; 
+        height: 56px; 
+        flex-direction: row; 
+        justify-content: flex-start; 
+        padding-left: 40px; 
+    }
+    .starsContainer {
+        margin-right: 30px; 
+    }
+    .Rating:first-of-type{
+        align-self: flex-start; 
+    }
+    .Rating:first-of-type{
+        align-self: flex-start; 
+    }
+    .Rating:nth-of-type(2){
+        align-self: center; 
+    }
+    .Rating:last-of-type{
+        align-self: flex-end; 
+    }
+    .ratingText{
+        padding: 0; 
+    }
+}

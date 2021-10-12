@@ -4,3 +4,8 @@
     margin-top: 40px; 
 }
 
+@media screen and (min-width: 1440px){
+    .RatingsContainer {
+        width: 540px; 
+    }
+}
