@@ -21,10 +21,10 @@
 .bgImageBottom {
     position: absolute; 
     background-image: url("../images/bg-pattern-bottom-mobile.svg"); 
-    background-size: contain; 
+    background-size: cover; 
     background-repeat: no-repeat; 
-    width: 1085px; 
-    height: 673px; 
+    min-width: 1085px; 
+    min-height: 673px; 
     bottom: 0; 
     left: -385px; 
 }
@@ -32,5 +32,16 @@
 @media screen and (min-width: 1440px){
     .SocialProofsBox {
         width: 1440px; 
+    }
+    .bgImageTop {
+        width: 584px; 
+        height: 362px; 
+        top: 0; 
+        left: 0; 
+    }
+    .bgImageBottom {
+        bottom: -20px; 
+        left: auto; 
+        right: 0; 
     }
 }
