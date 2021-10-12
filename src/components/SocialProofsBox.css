@@ -1,7 +1,27 @@
 .SocialProofsBox {
+    position: relative; 
     width: 375px; 
     padding: 24px; 
     padding-top: 80px; 
     background-color: #FFF; 
     padding-bottom: 100px; 
+    overflow: hidden; 
+}
+.bgImageTop {
+    position: absolute; 
+    background-image: url("../images/bg-pattern-top-mobile.svg"); 
+    width: 100%; 
+    height: 232px; 
+    top: 0; 
+    left: 0; 
+}
+
+.bgImageBottom {
+    position: absolute; 
+    background-image: url("../images/bg-pattern-bottom-mobile.svg"); 
+    background-size: cover; 
+    width: 1085px; 
+    height: 673px; 
+    bottom: 0; 
+    left: -385px; 
 }
