@@ -14,12 +14,15 @@ function App() {
   return (
     <div className="App">
       <SocialProofsBox>
-        <TextPresentation/>
-        <RatingsContainer>
-          <Rating magazine={"Reviews"}/>
-          <Rating magazine={"Guru"}/>
-          <Rating magazine={"BestTech"}/>
-        </RatingsContainer>
+        <div className="textAndStarsContainer" >
+          <TextPresentation/>
+          <RatingsContainer>
+            <Rating magazine={"Reviews"}/>
+            <Rating magazine={"Guru"}/>
+            <Rating magazine={"BestTech"}/>
+          </RatingsContainer>
+        </div>
+        
         <ReviewsContainer>
 
           <Review src={pictureColton}  name={"Colton Smith"}>

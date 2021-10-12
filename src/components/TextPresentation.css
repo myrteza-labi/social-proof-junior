@@ -19,3 +19,20 @@
     letter-spacing: -0.5px; 
     color: #927B91; 
 }
+
+@media screen and (min-width: 1440px){
+    .TextPresentation {
+        width: 445px;
+        margin-left: 125px; 
+        margin-top: 50px;
+        margin-right: 150px;  
+    }
+    .textPresentationTitle {
+        text-align: left; 
+        font-size: 48px; 
+        line-height: 48px; 
+    }
+    .textPresentationParagraph {
+        text-align: left;
+    }
+}
