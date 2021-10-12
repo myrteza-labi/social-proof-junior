@@ -3,3 +3,14 @@
     flex-direction: column; 
     margin-top: 50px; 
 }
+
+@media screen and (min-width: 1440px){
+    .ReviewsContainer {
+        flex-direction: row; 
+        justify-content: space-between; 
+        width: 1110px; 
+        height: 266px; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+}
